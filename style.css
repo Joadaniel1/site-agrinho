@@ -1,1 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f8f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header .logo img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    background-color: #3cb371;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2e8b57;
+    margin-bottom: 20px;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media(max-width: 768px) {
+    .activities {
+        flex-direction: column;
+    }
+}
