@@ -4,67 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrinho - Educação e Cidadania</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f8f5;
-            color: #333;
-        }
-        header {
-            background-color: #2e8b57;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #3cb371;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        h2 {
-            color: #2e8b57;
-        }
-        .activities {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .activity-card {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            flex: 1 1 250px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #2e8b57;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
+    <div class="logo">
+        <img src="img/logo.png" alt="Logo do Agrinho">
+    </div>
     <h1>Agrinho</h1>
     <p>Educação, Cidadania e Sustentabilidade</p>
 </header>
@@ -75,34 +22,36 @@
     <a href="#contato">Contato</a>
 </nav>
 
-<section id="sobre">
-    <h2>Sobre o Agrinho</h2>
-    <p>O Agrinho é um programa educativo que incentiva crianças e jovens a aprender sobre cidadania, sustentabilidade, cooperação e valores sociais. Por meio de atividades lúdicas e projetos escolares, o Agrinho ajuda a construir comunidades mais conscientes e solidárias.</p>
-</section>
+<main>
+    <section id="sobre">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho é um programa educativo que incentiva crianças e jovens a aprender sobre cidadania, sustentabilidade, cooperação e valores sociais. Por meio de atividades lúdicas e projetos escolares, o Agrinho ajuda a construir comunidades mais conscientes e solidárias.</p>
+    </section>
 
-<section id="atividades">
-    <h2>Atividades do Agrinho</h2>
-    <div class="activities">
-        <div class="activity-card">
-            <h3>Concurso Escolar</h3>
-            <p>Alunos participam com desenhos, redações e projetos que promovem valores de cidadania e responsabilidade social.</p>
+    <section id="atividades">
+        <h2>Atividades do Agrinho</h2>
+        <div class="activities">
+            <div class="activity-card">
+                <h3>Concurso Escolar</h3>
+                <p>Alunos participam com desenhos, redações e projetos que promovem valores de cidadania e responsabilidade social.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Oficinas Educativas</h3>
+                <p>Atividades lúdicas e interativas que ensinam sobre meio ambiente, cooperação e sustentabilidade.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Projetos Comunitários</h3>
+                <p>Iniciativas que envolvem alunos, escolas e famílias para transformar positivamente a comunidade.</p>
+            </div>
         </div>
-        <div class="activity-card">
-            <h3>Oficinas Educativas</h3>
-            <p>Atividades lúdicas e interativas que ensinam sobre meio ambiente, cooperação e sustentabilidade.</p>
-        </div>
-        <div class="activity-card">
-            <h3>Projetos Comunitários</h3>
-            <p>Iniciativas que envolvem alunos, escolas e famílias para transformar positivamente a comunidade.</p>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section id="contato">
-    <h2>Contato</h2>
-    <p>Email: contato@agrinho.com.br</p>
-    <p>Telefone: (31) 1234-5678</p>
-</section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@agrinho.com.br</p>
+        <p>Telefone: (31) 1234-5678</p>
+    </section>
+</main>
 
 <footer>
     <p>&copy; 2026 Agrinho - Todos os direitos reservados</p>
