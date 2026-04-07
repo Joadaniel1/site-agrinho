@@ -62,3 +62,26 @@ document.querySelector('.cta-btn').addEventListener('click', () => {
         alert('🌱 Pronto para transformar o mundo com o Agrinho?\nAcesse o site oficial do SENAR do seu estado!');
     }, 300);
 });
+
+// ADICIONE NO FINAL do script.js anterior:
+
+/* DOMÍNIO & PWA */
+document.addEventListener('DOMContentLoaded', function() {
+    // Título dinâmico com domínio
+    document.title = 'Agrinho 2026 | agrinhooficial.com.br';
+    
+    // Service Worker para PWA (offline)
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+    }
+    
+    // Copy domain to clipboard
+    const domainBtn = document.createElement('button');
+    domainBtn.textContent = '📋 Copiar Site';
+    domainBtn.onclick = () => {
+        navigator.clipboard.writeText('agrinhooficial.com.br');
+        domainBtn.textContent = '✅ Copiado!';
+        setTimeout(() => domainBtn.textContent = '📋 Copiar Site', 2000);
+    };
+    document.querySelector('.footer-content').appendChild(domainBtn);
+});
