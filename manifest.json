@@ -1,0 +1,16 @@
+{
+    "name": "Agrinho Oficial 2026",
+    "short_name": "Agrinho",
+    "description": "Concurso educacional de sustentabilidade",
+    "start_url": "https://agrinhooficial.com.br/",
+    "display": "standalone",
+    "background_color": "#28a745",
+    "theme_color": "#28a745",
+    "icons": [
+        {
+            "src": "https://agrinhooficial.com.br/assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
