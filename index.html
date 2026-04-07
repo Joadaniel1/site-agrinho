@@ -3,93 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho Oficial - Educação Sustentável | agrinhooficial.com.br</title>
-    
-    <!-- SEO & DOMÍNIO -->
-    <meta name="description" content="Site oficial do Programa Agrinho 2026. Concurso educacional SENAR sobre sustentabilidade, cidadania rural e educação ambiental. Inscreva-se agora!">
-    <meta name="keywords" content="Agrinho, SENAR, sustentabilidade, educação ambiental, concurso escolar, cidadania rural">
-    <meta name="author" content="SENAR-PR, FAEP, Joaquim Daniel">
-    
-    <!-- DOMÍNIO CANÔNICO -->
-    <link rel="canonical" href="https://agrinhooficial.com.br/">
-    
-    <!-- OPEN GRAPH / REDES SOCIAIS -->
-    <meta property="og:title" content="Agrinho 2026 - Saber e Atuar!">
-    <meta property="og:description" content="O maior concurso educacional de sustentabilidade rural do Brasil.">
-    <meta property="og:image" content="https://agrinhooficial.com.br/assets/og-image.jpg">
-    <meta property="og:url" content="https://agrinhooficial.com.br/">
-    <meta property="og:type" content="website">
-    
-    <!-- FAVICON & PWA -->
-    <link rel="icon" type="image/svg+xml" href="https://agrinhooficial.com.br/favicon.ico">
-    <link rel="apple-touch-icon" href="https://agrinhooficial.com.br/assets/icon-192.png">
-    <link rel="manifest" href="https://agrinhooficial.com.br/manifest.json">
-    
-    <!-- CSS & FONTES GOOGLE -->
+    <title>Agrinho 2026 - Sustentabilidade Educacional</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <!-- ANÁLISE GOOGLE -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
 </head>
 <body>
-    <!-- HEADER COM DOMÍNIO -->
     <header>
         <nav>
             <div class="logo">
-                <svg viewBox="0 0 100 100" class="logo-icon" aria-label="Logo Agrinho">
+                <svg viewBox="0 0 100 100" class="logo-icon">
                     <circle cx="50" cy="50" r="40" fill="#fd7e14"/>
                     <path d="M30 30 Q50 20 70 30 Q50 40 30 30 Z M30 70 Q50 80 70 70 Q50 60 70 70 Z" fill="#28a745"/>
                     <circle cx="50" cy="50" r="10" fill="#fff"/>
                 </svg>
-                <div>
-                    <span class="logo-text">Agrinho</span>
-                    <span class="domain-badge">agrinhooficial.com.br</span>
-                </div>
+                Agrinho 2026
             </div>
-            <!-- RESTO DO NAV... (mesmo código anterior) -->
             <ul id="nav-list">
                 <li><a href="#home">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#participar">Como Participar</a></li>
-                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#participar">Participar</a></li>
+                <li><a href="#temas">Temas</a></li>
                 <li><a href="#categorias">Categorias</a></li>
-                <li><a href="https://agrinhooficial.com.br/inscricoes" target="_blank" class="nav-cta">Inscrever</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
-                <span></span><span></span><span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
     </header>
 
-    <!-- CONTEÚDO PRINCIPAL (mesmo do anterior, só adiciono botão com domínio) -->
     <main>
-        <!-- ... todo conteúdo anterior ... -->
-        
-        <!-- NOVO: SEÇÃO INSCRIÇÃO COM DOMÍNIO -->
-        <section id="inscricoes" class="section highlight">
-            <h2>Inscrições 2026</h2>
-            <div class="inscricao-cta">
-                <h3>🚀 Inscreva-se no Agrinho pelo site oficial!</h3>
-                <a href="https://agrinhooficial.com.br/inscricoes" class="btn-primary-large" target="_blank">
-                    Acessar Portal de Inscrições
-                </a>
-                <p><small>Ou acesse o SENAR do seu estado: <a href="https://senar.org.br/" target="_blank">senar.org.br</a></small></p> [web:17]
+        <section id="home" class="hero">
+            <h1>🌱 Agrinho 2026</h1>
+            <p>O maior concurso educacional de <strong>sustentabilidade rural</strong> do Brasil</p>
+            <p><em>Saber e Atuar para Melhorar o Mundo!</em></p> [web:1]
+            <button onclick="scrollTo('sobre')">Saiba Mais</button>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2>🎯 O que é o Agrinho?</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Programa Educacional</h3>
+                    <p>Criado em 1995 pelo <strong>SENAR-PR</strong> e <strong>FAEP</strong>. Presente em vários estados brasileiros. [web:1][web:2]</p>
+                </div>
+                <div class="card">
+                    <h3>Milhares de Alunos</h3>
+                    <p>Envolve estudantes da Educação Infantil ao Ensino Médio em projetos criativos sobre sustentabilidade. [web:5]</p>
+                </div>
             </div>
         </section>
-        
-        <!-- ... resto das seções anteriores ... -->
+
+        <section id="participar" class="section">
+            <h2>📋 Como Participar</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <h3>Escola Adere</h3>
+                    <p>Secretaria de Educação assina termo com SENAR estadual</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <h3>Capacitação</h3>
+                    <p>Professores fazem formação sobre o tema</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <h3>Inscrição</h3>
+                    <p>Alunos enviam trabalhos pelo site oficial</p>
+                </div>
+            </div>
+            <div class="center">
+                <a href="https://senarpr.org.br/programa-agrinho/" target="_blank" class="btn-big">Acessar SENAR-PR</a> [web:5]
+            </div>
+        </section>
+
+        <section id="temas" class="section">
+            <h2>🌍 Temas de Sustentabilidade</h2>
+            <div class="temas-grid">
+                <div class="tema-card">
+                    <h3>2026 - GO</h3>
+                    <p>"Sementes do Bem: Saúde para mente, corpo e comunidade" [web:1]</p>
+                </div>
+                <div class="tema-card">
+                    <h3>2025 - PR</h3>
+                    <p>"Festejando a conexão campo-cidade" [web:2]</p>
+                </div>
+                <div class="tema-card">
+                    <h3>2026 - ES</h3>
+                    <p>"Campo e cidade: Conexões que transformam" [web:12]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias" class="section">
+            <h2>🏆 Categorias do Concurso</h2>
+            <div class="categorias">
+                <div class="cat-item">
+                    <span>📝</span> Redação
+                </div>
+                <div class="cat-item">
+                    <span>🎨</span> Desenho
+                </div>
+                <div class="cat-item">
+                    <span>🔬</span> Projeto Científico
+                </div>
+                <div class="cat-item">
+                    <span>🤖</span> Robótica
+                </div>
+                <div class="cat-item">
+                    <span>💻</span> Programação
+                </div>
+            </div>
+            <p class="center"><strong>Prêmios:</strong> Notebooks, Smartphones, Carros! [web:2]</p>
+        </section>
     </main>
 
-    <!-- FOOTER COM DOMÍNIO -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="https://agrinhooficial.com.br/" class="domain-link">agrinhooficial.com.br</a>
-                <a href="https://senarpr.org.br/programa-agrinho/" target="_blank">SENAR-PR Oficial</a> [web:5]
-            </div>
-            <p>&copy; 2026 Agrinho Educacional | Curitiba - PR | Desenvolvido por Joaquim Daniel</p>
-        </div>
+        <p>&copy; 2026 Agrinho Educacional | Curitiba/PR | <a href="https://senarpr.org.br/" target="_blank">SENAR-PR Oficial</a></p> [web:5]
     </footer>
 
     <script src="js/script.js"></script>
