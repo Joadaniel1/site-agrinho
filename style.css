@@ -215,3 +215,55 @@ footer {
 ::-webkit-scrollbar-track { background: #f1f1f1; }
 ::-webkit-scrollbar-thumb { background: linear-gradient(#28a745, #20c997); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #fd7e14; }
+
+/* ADIÇÕES PARA DOMÍNIO - Coloque no final do style.css anterior */
+
+.logo-text { font-size: 1.8rem; font-weight: 800; display: block; }
+.domain-badge { 
+    font-size: 0.8rem; 
+    background: rgba(255,255,255,0.2); 
+    padding: 2px 8px; 
+    border-radius: 12px; 
+    display: block; 
+    font-weight: 500;
+}
+.nav-cta { 
+    background: linear-gradient(45deg, #ff6b35, #f7931e) !important; 
+    padding: 0.8rem 1.5rem !important;
+}
+.highlight { 
+    background: linear-gradient(135deg, #28a745, #20c997) !important; 
+    color: white !important;
+}
+.inscricao-cta { 
+    text-align: center; 
+    padding: 3rem; 
+    background: rgba(255,255,255,0.1); 
+    border-radius: 20px; 
+    backdrop-filter: blur(10px);
+}
+.btn-primary-large { 
+    display: inline-block; 
+    background: linear-gradient(45deg, #007bff, #0056b3); 
+    color: white !important; 
+    padding: 1.5rem 4rem; 
+    font-size: 1.3rem; 
+    border-radius: 50px; 
+    text-decoration: none; 
+    margin: 2rem 0;
+}
+.domain-link { 
+    color: #fff; 
+    font-weight: 700; 
+    font-size: 1.3rem; 
+    text-decoration: none; 
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.domain-link:hover { border-color: #fd7e14; }
+footer a { color: rgba(255,255,255,0.9); margin: 0 1rem; }
+
+/* PWA & RESPONSIVO MELHORADO */
+@media (max-width: 768px) {
+    .domain-badge { font-size: 0.7rem; padding: 1px 6px; }
+    .btn-primary-large { padding: 1.2rem 2.5rem; font-size: 1.1rem; }
+}
