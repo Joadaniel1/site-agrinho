@@ -3,59 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho - Educação e Cidadania</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Agrinho - Educação para Sustentabilidade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%2328a745'/></svg>">
 </head>
 <body>
-
-<header>
-    <div class="logo">
-        <img src="img/logo.png" alt="Logo do Agrinho">
-    </div>
-    <h1>Agrinho</h1>
-    <p>Educação, Cidadania e Sustentabilidade</p>
-</header>
-
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#atividades">Atividades</a>
-    <a href="#contato">Contato</a>
-</nav>
-
-<main>
-    <section id="sobre">
-        <h2>Sobre o Agrinho</h2>
-        <p>O Agrinho é um programa educativo que incentiva crianças e jovens a aprender sobre cidadania, sustentabilidade, cooperação e valores sociais. Por meio de atividades lúdicas e projetos escolares, o Agrinho ajuda a construir comunidades mais conscientes e solidárias.</p>
-    </section>
-
-    <section id="atividades">
-        <h2>Atividades do Agrinho</h2>
-        <div class="activities">
-            <div class="activity-card">
-                <h3>Concurso Escolar</h3>
-                <p>Alunos participam com desenhos, redações e projetos que promovem valores de cidadania e responsabilidade social.</p>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 100 100" class="logo-icon">
+                    <circle cx="50" cy="50" r="40" fill="#fd7e14"/>
+                    <path d="M30 30 Q50 20 70 30 Q50 40 30 30 Z M30 70 Q50 80 70 70 Q50 60 70 70 Z" fill="#28a745"/>
+                    <circle cx="50" cy="50" r="10" fill="#fff"/>
+                </svg>
+                <span>Agrinho</span>
             </div>
-            <div class="activity-card">
-                <h3>Oficinas Educativas</h3>
-                <p>Atividades lúdicas e interativas que ensinam sobre meio ambiente, cooperação e sustentabilidade.</p>
+            <ul id="nav-list">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#participar">Como Participar</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="activity-card">
-                <h3>Projetos Comunitários</h3>
-                <p>Iniciativas que envolvem alunos, escolas e famílias para transformar positivamente a comunidade.</p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Agrinho!</h1>
+                <p>O maior programa educacional de cidadania e sustentabilidade rural do Brasil.<br><strong>Saber e Atuar para Melhorar o Mundo!</strong></p> [web:1]
+                <button class="cta-btn" onclick="scrollToSection('sobre')">Saiba Mais</button>
             </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2>O que é o Agrinho?</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>O Programa Agrinho é um concurso educacional criado em 1995 no Paraná pelo <strong>SENAR-PR</strong> e <strong>FAEP</strong>, expandido para outros estados como Goiás e ES. Envolve milhões de alunos e professores promovendo educação ambiental e cidadania através de projetos criativos. [web:1][web:2][web:5]</p>
+                    <p>Em 2026, o tema no SENAR-GO é <em>"Sementes do Bem: Cultivando saúde para mente, corpo e comunidade"</em>, focando sustentabilidade e valores humanos. [web:1]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="participar" class="section">
+            <h2>Como Participar</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Adesão da Escola</h3>
+                    <p>Secretarias enviam Termo de Adesão ao SENAR estadual até abril. [web:12]</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Capacitações</h3>
+                    <p>Professores participam de formações sobre o tema anual. [web:1]</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Inscrições</h3>
+                    <p>Alunos enviam trabalhos via site oficial. Prêmios: notebooks, smartphones e carros! [web:10][web:17]</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sustentabilidade" class="section">
+            <h2>Sustentabilidade no Agrinho</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>Enfatiza práticas sustentáveis como <strong>ESG</strong>, agroecologia e conexão campo-cidade. Projetos abordam reciclagem, agricultura familiar e bem-estar. [web:4][web:8]</p>
+                </div>
+                <div class="themes-grid">
+                    <div class="theme-card">
+                        <h4>2025 (PR)</h4>
+                        <p>"Festejando a conexão campo-cidade" [web:2]</p>
+                    </div>
+                    <div class="theme-card">
+                        <h4>2026 (ES)</h4>
+                        <p>"Campo e cidade: Conexões que transformam" [web:12]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias" class="section">
+            <h2>Categorias do Concurso</h2>
+            <div class="categories-grid">
+                <div class="category-item">
+                    <h3>📝 Redação</h3>
+                    <p>Ensino Fundamental e Médio</p>
+                </div>
+                <div class="category-item">
+                    <h3>🎨 Desenho</h3>
+                    <p>Educação Infantil</p>
+                </div>
+                <div class="category-item">
+                    <h3>🔬 Projeto Científico</h3>
+                    <p>Todas as séries</p>
+                </div>
+                <div class="category-item">
+                    <h3>🤖 Robótica</h3>
+                    <p>Inovação tecnológica</p>
+                </div>
+            </div>
+            <p class="center-text"><strong>Nova em 2026:</strong> Valores Humanos (Amor, Paz, Verdade) [web:1][web:5][web:13]</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Agrinho Educacional | Desenvolvido com base em fontes oficiais SENAR/FAEP</p>
+            <p><strong>Curitiba - PR | Saber e Atuar!</strong></p> [web:1][web:5]
         </div>
-    </section>
+    </footer>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: contato@agrinho.com.br</p>
-        <p>Telefone: (31) 1234-5678</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2026 Agrinho - Todos os direitos reservados</p>
-</footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
